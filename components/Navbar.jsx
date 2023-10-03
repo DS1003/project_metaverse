@@ -21,9 +21,15 @@ const Navbar = () => (
         alt="search"
         className="w-[24px] h-[24px] object-contain"
       />
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
-        METAVERSUS
-      </h2>
+      <a href="index.js">
+        <img
+          src="/logo.png"
+          alt="Saphir Alfa"
+          className="font-extrabold text-[24px] leading-[30.24px] text-white"
+          width={150}
+          height={125}
+        />
+      </a>
       <img
         src="/menu.svg"
         alt="menu"
